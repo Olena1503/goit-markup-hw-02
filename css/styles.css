@@ -130,7 +130,6 @@ text-align: center;
 /**----TEAM----------------------------------------------*/
 
 .team { 
- background-color: var(--cloud);
 }
 .team-title {
     font-size: 36px;
