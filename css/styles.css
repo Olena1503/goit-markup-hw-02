@@ -2,17 +2,16 @@
     --navyblue: #2E2F42;
     --iris: #4D5AE5;
     --ocean: #404BBF;
-    --white: #FFF;
+    --white: #FFFFFF;
     --slate: #434455;
     --cloud: #F4F4FD;
 }
 body {
-    font-family: Roboto;
-    color: var(--navyblue)
+    font-family: "Roboto", sans-serif;
+    color: var(--slate)
     background-color: var(--white)
 }
 .visually-hidden {
-    position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
@@ -34,16 +33,16 @@ body {
 /**----HEADER----------------------------------------------*/
 
 .header-logo {
-    color: var(--navyblue);
-font-size: 18px;
-font-family: Raleway;
-font-weight: 800;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+    color: var(--iris, #4D5AE5);
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .header-logo span {
-    color: var(--iris);
+    color: var(--navyblue, #2E2F42);
 }
 .header-menu-link {
     color: var(--navyblue);
@@ -58,11 +57,12 @@ letter-spacing: 0.02em;
     color: var(--ocean)
 }
 .header-adrress-link {
-    color: var(--navyblue);
+    color: var(--slate);
     font-size: 16px;
 font-family: Roboto;
 line-height: 1.5;
 letter-spacing: 0.02em;
+font-style: normal;
 }
 .header-adrress-link:hover,
 .header-adrress-link:focus {
@@ -86,7 +86,7 @@ text-align: center;
 }
 .hero-btn {
     font-size: 16px;
-font-family: Roboto;
+    font-family: "Roboto", sans-serif;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
@@ -96,10 +96,10 @@ cursor: pointer;
 }
 .hero-bt:hover,
 .hero-bt:focus {
-    background-color: var(--ocean);
+    background-color: #404BBF;
 }
 
-/**----HERO----------------------------------------------*/
+/**---ADVANTAGES----------------------------------------------*/
 
 .advantages {
 }
@@ -146,7 +146,7 @@ text-align: center;
 /**----TEAM----------------------------------------------*/
 
 .team { 
- background-color: var(--cloud);
+ background-color: var(--white);
 }
 .team-title {
     font-size: 36px;
@@ -187,16 +187,16 @@ text-align: center;
     background-color: var(--navyblue);
 }
 .footer-logo {
-    color: var(--cloud);
+    color: var(--iris);
     font-size: 18px;
-font-family: Raleway;
+    font-family: "Raleway", sans-serif;
 font-weight: 800;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .footer-logo span {
-    color: var(--iris)
+    color: var(--cloud);
 }
 .footer-text {
     font-size: 16px;
