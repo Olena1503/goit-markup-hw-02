@@ -11,7 +11,7 @@ body {
     color: var(--slate);
     background-color: var(--white);
 }
-  .link {
+.link {
     text-decoration: none;
 }
 .list {
@@ -29,8 +29,8 @@ body {
     text-transform: uppercase;
  color:var(--iris);
 }
-.header-logo span {
-    color: var(--navyblue)
+.header-logo-dark {
+    color: var(--navyblue);
 }
 .header-menu-link {
     color: var(--navyblue);
@@ -129,7 +129,7 @@ text-align: center;
 
 /**----TEAM----------------------------------------------*/
 
-.team { 
+.team { background-color: var(--cloud)
 }
 .team-title {
     font-size: 36px;
@@ -141,7 +141,7 @@ color: var(--navyblue,);
 text-align: center;
 }
 .team-list {
-    background-color: var(--white);
+    background-color: var(--white)
 }
 .team-item {
 }
@@ -176,7 +176,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
-.footer-logo span {
+.header-logo-wight {
     color: var(--cloud);
 }
 .footer-text {
@@ -186,7 +186,13 @@ letter-spacing: 0.02em;
 color: var(--cloud);
 }
 
-/**----PORTFOLIOFILTERS----------------------------------------------*/
+/**----PORTFOLIO-btn----------------------------------------------*/
+.portfolio-filter-btn{
+
+}
+.portfolio-filter-item {
+
+}
 
 .filter-btn {
     font-family: "Roboto", sans-serif;
