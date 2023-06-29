@@ -141,9 +141,10 @@ color: var(--navyblue,);
 text-align: center;
 }
 .team-list {
-    background-color: var(--white)
+
 }
 .team-item {
+    background-color: var(--white);
 }
 .team-item-img {
 }
@@ -200,9 +201,9 @@ color: var(--cloud);
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
-color: var(--iris,);
+color:  #4d5ae5;
 text-align: center;
-background: var(--cloud);
+background: #F4F4FD;
 cursor: pointer;
 }
 .filter-btn :hover,
