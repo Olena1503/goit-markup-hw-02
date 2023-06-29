@@ -206,8 +206,8 @@ text-align: center;
 background: #F4F4FD;
 cursor: pointer;
 }
-.filter-btn :hover,
-.filter-btn :focus {
+.filter-btn:hover,
+.filter-btn:focus {
   color: #FFFFFF;
   background-color:  #404BBF;  
 }
